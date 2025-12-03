@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@import "./styles/components.css";
+
+html, body, #root { 
+  height: 100%; 
+}
+
+body { 
+  background-color: #f9fafb;
+  color: #1f2937;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.dark body {
+  background-color: #0b1220;
+  color: #e6eef8;
+}
+.dark .bg-white {
+  background-color: #081028 !important;
+}
+.dark .text-gray-900 {
+  color: #e6eef8 !important;
+}
+.dark .text-gray-600 {
+  color: #94a3b8 !important;
+}
+.dark .border-gray-200 {
+  border-color: #1f2937 !important;
+}
+.dark .bg-gray-50 {
+  background-color: #071229 !important;
+}
+.dark .bg-gray-200 {
+  background-color: #0f1724 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+.truncate-line-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.truncate-line-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+}

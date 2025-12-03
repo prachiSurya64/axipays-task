@@ -1,0 +1,52 @@
+[
+  {
+    "id": "m1",
+    "name": "BlueStore",
+    "country": "India",
+    "status": "active",
+    "monthlyVolume": 120000,
+    "chargebackRatio": 1.5,
+    "riskLevel": "low",
+    "successRate": 98.5
+  },
+  {
+    "id": "m2",
+    "name": "QuickBuy",
+    "country": "USA",
+    "status": "paused",
+    "monthlyVolume": 45000,
+    "chargebackRatio": 2.8,
+    "riskLevel": "high",
+    "successRate": 95.0
+  },
+  {
+    "id": "m3",
+    "name": "ShopifyX",
+    "country": "UK",
+    "status": "blocked",
+    "monthlyVolume": 8000,
+    "chargebackRatio": 0.6,
+    "riskLevel": "medium",
+    "successRate": 97.2
+  },
+  {
+    "id": "m4",
+    "name": "DailyNeeds",
+    "country": "India",
+    "status": "active",
+    "monthlyVolume": 56000,
+    "chargebackRatio": 2.1,
+    "riskLevel": "high",
+    "successRate": 93.5
+  },
+  {
+    "id": "m5",
+    "name": "GadgetPro",
+    "country": "Canada",
+    "status": "active",
+    "monthlyVolume": 230000,
+    "chargebackRatio": 0.9,
+    "riskLevel": "low",
+    "successRate": 99.1
+  }
+]
